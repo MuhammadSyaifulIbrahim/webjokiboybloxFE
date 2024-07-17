@@ -1,0 +1,40 @@
+.table-res {
+  width: 80%;
+}
+
+td {
+  text-wrap: nowrap;
+  padding: 0 5px;
+}
+
+.pagination {
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.page-link {
+  color: #007bff;
+}
+
+.page-link:hover {
+  color: #0056b3;
+}
+
+.page-item.disabled .page-link {
+  color: #6c757d;
+}
+
+@media (max-width: 768px) {
+  .table-res {
+    width: 90%;
+  }
+
+  .pagination {
+    justify-content: start;
+  }
+}

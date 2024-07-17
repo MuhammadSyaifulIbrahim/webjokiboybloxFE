@@ -1,0 +1,17 @@
+.carousel-img {
+  height: 600px;
+  object-fit: cover;
+  object-position: 0 5%;
+}
+
+.card-img {
+  object-fit: cover;
+  object-position: 0 20%;
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 300px;
+    object-position: initial;
+  }
+}
